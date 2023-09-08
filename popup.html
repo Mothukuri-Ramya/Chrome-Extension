@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +7,9 @@
 <body>
   <div class="popup-container">
     <h1>LinkedIn Profile Data Collector</h1>
-    <button id="collectDataButton">Collect LinkedIn Data</button>
+    <input type="number" id="likeCount" placeholder="Like Count" min="1">
+    <input type="number" id="commentCount" placeholder="Comment Count" min="1">
+    <button id="collectDataButton" disabled>Collect LinkedIn Data</button>
     <p id="statusMessage"></p>
   </div>
 

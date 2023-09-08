@@ -1,5 +1,6 @@
 
 const extractProfileData = () => {
+  // Replace these selectors with the actual ones on LinkedIn's website
   const profileName = document.querySelector('.profile-info .pv-top-card-section__name');
   const profileLocation = document.querySelector('.profile-info .pv-top-card-section__location');
   const profileAbout = document.querySelector('.profile-summary .pv-about__summary-text');

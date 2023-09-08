@@ -1,3 +1,4 @@
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
@@ -8,9 +9,9 @@ dotenv.config();
 // Set up middleware
 app.use(bodyParser.json());
 
-// Define allowed origins (replace with your extension's origin)
+
 const allowedOrigins = [
-  'chrome-extension://laoknbkmbiclggilkclbchdgmgfiiigk', // Replace with your extension's origin
+  'http://localhost:3000/*', // Replace with your extension's origin
   // ... other origins you want to allow
 ];
 
